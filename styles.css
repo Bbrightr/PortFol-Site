@@ -21,10 +21,6 @@ h1 {
     margin-top: 0;
 }
 
-h1 .accent-text {
-    font-size: 80px;
-}
-
 h2 {
     font-size: 42px;
     margin-top: 0;
@@ -35,14 +31,29 @@ h2 {
     margin-bottom: 20px;
 }
 
-h2 .accent-text {
-    font-size: 60px;
-}
-
 h3 {
     font-size: 36px;
     font-weight: 900;
     margin-bottom: 0;
+}
+
+.accent-text {
+    display: block;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
+.accent-text,
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
 }
 
 p {
@@ -74,6 +85,12 @@ section {
     background: #252525;
 }
 
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
 .btn {
     display: inline-block;
     color: #252525;
@@ -85,18 +102,6 @@ section {
 
 .btn:hover,
 .btn:focus {
-    background-color: #fff;
-    color: #252525;
+    background: #252525;
+    color: #fff;
 }
-
-.accent-text{
-    display: block;
-    font-weight: 900;
-}
-
-.accent-text,
-.name,
-time{
-    color: #99D930;
-}
-
